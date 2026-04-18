@@ -2,8 +2,8 @@
 
 This directory contains the trained model weights required for running inference in the application.
 
-> [!CAUTION]
-> **Model files are not included in this repository** due to GitHub file size limitations.
+> ⚠️ **Important**  
+> Model files are not included in this repository due to GitHub file size limitations.  
 > You must download them manually using the instructions below.
 
 ---
@@ -25,35 +25,3 @@ After downloading the files, follow these steps:
 
 ```bash
 Backend/models/
-```
-
----
-
-## 📁 Required Files
-
-Ensure the following files are present inside the `Backend/models/` folder:
-
-| File Name                       | Description                                |
-| ------------------------------- | ------------------------------------------ |
-| `stage1_weed_detector.pt`       | Stage 1: Weed detection model (YOLO-based) |
-| `stage2_species_classifier.pth` | Stage 2: Weed species classification model |
-| `stage3_growth_localizer.pth`   | Stage 3: Growth stage localization model   |
-
----
-
-## ✅ Important Notes
-
-* **Do not rename files**
-  The backend strictly depends on these exact filenames.
-
-* **Avoid nested folders**
-  All files must be placed directly inside `Backend/models/`.
-
-* **Verify file integrity**
-  Ensure downloads are complete to prevent runtime errors or corrupted model issues.
-
----
-
-## 🚀 Ready to Run
-
-Once all required files are correctly placed, the backend is fully ready for inference.
