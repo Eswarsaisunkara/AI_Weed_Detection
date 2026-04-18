@@ -1,0 +1,9 @@
+﻿fastapi
+uvicorn
+torch
+torchvision
+ultralytics
+opencv-python
+pillow
+numpy<2
+python-multipart
