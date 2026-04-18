@@ -1,27 +1,33 @@
-# Model Files
+📦 Model Files
 
-This folder should contain the trained model files required for inference.
+This directory stores all trained model weights required for inference in the application.
 
-Due to GitHub size limitations, model weights are not included in this repository.
+⚠️ Note: Model files are not included in this repository due to GitHub file size limitations.
 
-## 📥 Download Models
+📥 Download Pre-trained Models
 
-Download all models from the link below:
+Please download all required model files from the link below:
 
 👉 https://drive.google.com/drive/folders/111AF8riHsAJPGhkfDPMxdL4adboonN00?usp=sharing
 
-## 📂 Setup
+⚙️ Setup Instructions
 
-After downloading:
+After downloading the model files, follow these steps:
 
-1. Extract (if needed)
-2. Place files inside this folder:
-
+Extract the files (if they are compressed).
+Move all model files into the following directory:
 Backend/models/
+📁 Required Files
 
-Required files:
-- stage1_weed_detector.pt
-- stage2_species_classifier.pth
-- stage3_growth_localizer.pth
+Ensure the following files are present inside the Backend/models/ folder:
 
-Make sure filenames remain unchanged.
+stage1_weed_detector.pt → Weed detection model (YOLO-based)
+stage2_species_classifier.pth → Weed species classification model
+stage3_growth_localizer.pth → Growth stage localization model
+✅ Important Notes
+Do not rename any of the files — the application depends on exact filenames.
+Make sure all files are placed directly inside the models folder (no nested folders).
+Verify that all files are downloaded completely to avoid runtime errors.
+🚀 Ready to Run
+
+Once the models are correctly placed, the backend is ready for inference.
