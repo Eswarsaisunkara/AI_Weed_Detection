@@ -7,8 +7,8 @@ __pycache__/
 *.pyc
 
 # Models
-*.pt
-*.pth
+# *.pt
+# *.pth
 
 # Env
 .env
