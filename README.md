@@ -8,7 +8,7 @@ Upload field images and automatically detect weeds, classify species, and identi
 ## Live Demo
 
 Frontend: [https://ai-weed-detection.vercel.app](https://ai-weed-detection.vercel.app)
-Backend API: [https://ai-weed-detection.onrender.com] (https://ai-weed-detection.onrender.com)
+Backend API: [https://ai-weed-detection.onrender.com]
 
 ---
 
